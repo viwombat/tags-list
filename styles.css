@@ -1,0 +1,106 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  margin: 100px auto;
+  border: 5px solid orange;
+}
+
+.title {
+  margin-top: 10px;
+  font-size: 35px;
+  color:rgb(150, 92, 44)
+}
+
+.field {
+  padding: 5px;
+  width: 25vw;
+}
+
+.input-field {
+ display: flex;
+ justify-content: space-between;
+}
+
+.input {
+  width: 300px;
+  border: none;
+  outline: none;
+}
+
+.input[value] {
+  color: rgb(131, 124, 118);
+}
+
+.input[value]:focus {
+  color: rgb(150, 92, 44);
+}
+
+.tags-field {
+  width: 400px;
+  border: 2px solid rgb(128, 68, 0);
+  min-height: 20px;
+  margin: 15px;
+}
+
+.container-for-tags {
+  display: flex;
+  flex-direction: row;
+  min-width: 0px;
+  max-width: 400px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgb(233, 140, 65);
+  border: 1px solid rgb(128, 68, 0);
+  border-radius: 2px;
+  margin: 5px;
+}
+
+.inner-tag {
+  color: rgb(255, 255, 255);
+  margin-left: 5px;
+}
+
+.remove {
+  outline: none;
+  border: none;
+  background: rgb(233, 140, 65);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.bottom-buttons {
+  width: 650px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle {
+  display: flex;
+}
+
+.readonly {
+  color:rgb(131, 124, 118)
+}
+
+.add {
+  width: 60px;
+  background: rgb(233, 140, 65);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 15px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.add:focus {
+  box-shadow: 0 0 0 4px #cbd6ee;
+  outline: none;
+}
